@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Products — Yesh Automobiles</title>
+
+  <!-- GTM head -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  <!-- End GTM head -->
+
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:30px auto;padding:0 15px;}
+    .product{border:1px solid #eee;padding:12px;margin:10px 0;border-radius:6px}
+    .btn{display:inline-block;padding:8px 12px;background:#1a73e8;color:#fff;border-radius:6px;text-decoration:none}
+  </style>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+  <header>
+    <h1>Products</h1>
+    <nav><a href="index.html">Home</a> | <a href="products.html">Products</a> | <a href="payment.html">Payment</a></nav>
+  </header>
+
+  <main>
+    <div class="product">
+      <h3>Bike Model A</h3>
+      <p>Price: ₹45,000</p>
+      <!-- sample buy link with query params to pass product info -->
+      <a class="btn" href="payment.html?product=BikeA&price=45000">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <h3>Bike Model B</h3>
+      <p>Price: ₹55,000</p>
+      <a class="btn" href="payment.html?product=BikeB&price=55000">Buy Now</a>
+    </div>
+  </main>
+</body>
+</html>
